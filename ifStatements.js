@@ -11,14 +11,14 @@
   // if it is snowy, print "coat"
   // if it is icy, print "yak traks"
 
-var weather = "sunny"
+var weather = "snowy"
 
 if (weather === "sunny") {
   console.log("sunscreen");
 } else if (weather === "rainy") {
   console.log("umbrella");
 } else if (weather === "snowy") {
-  console.log("coat");
+  console.log("beanie");
 } else if (weather === "icy") {
   console.log("yak traks");
 } else {
@@ -27,7 +27,6 @@ if (weather === "sunny") {
 
 // Experiment with manipulating the value held in variable 'weather'
 // to print something other than 'coat'
-
 
 // ##################
 // Using the numQuarters variable defined below, determine
